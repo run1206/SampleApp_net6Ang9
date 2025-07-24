@@ -1,1 +1,7 @@
-{}
+{
+    "liveServer.settings.https": {
+            "enable": true,
+            "cert": "/client/ssl/server.crt",
+            "key": "/client/ssl/server.key"
+        }
+}
