@@ -1,0 +1,16 @@
+.me-auto {
+    margin-right: auto !important;
+}
+
+.me-2 {
+    margin-right: .5rem !important;
+}
+
+.container-fluid {
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    padding-right: calc(var(--bs-gutter-x) * .5);
+}
+
+.dropdown-toggle, .dropdown-item {
+    cursor: pointer;
+}
