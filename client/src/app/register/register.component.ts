@@ -15,8 +15,7 @@ export class RegisterComponent implements OnInit {
 
   constructor(private accountService: AccountService, private toastr: ToastrService) { }
 
-  ngOnInit(): void {
-  }
+  ngOnInit(): void {}
 
   register() {
     this.accountService.register(this.model).subscribe(resp => {

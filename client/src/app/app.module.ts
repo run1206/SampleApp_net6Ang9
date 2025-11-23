@@ -42,8 +42,7 @@ import { RegisterComponent } from './register/register.component';
     SharedModule
   ],
   providers: [
-    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
-    //{provide: ErrorHandler, useClass: GlobalErrorHandler}
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true}
   ],
   bootstrap: [AppComponent]
 })
