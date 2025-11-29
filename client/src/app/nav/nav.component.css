@@ -18,3 +18,7 @@
 #custom-nav-dark-blue {
     background-color: #003563 !important;
 }
+
+nav a.dropdown-toggle {
+    text-decoration: none;
+}
